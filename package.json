@@ -1,28 +1,19 @@
 {
-  "name": "netlify-cms-github-oauth-provider",
+  "name": "netlify-oauth-client",
   "version": "1.0.0",
-  "engines": {
-    "node": ">=7.x"
-  },
-  "description": "netlify oauth github client sending token in form as netlify service itself",
-  "repository": "https://github.com/vencax/netlify-cms-github-oauth-provider",
+  "description": "netlify oauth github client",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
+  "dependencies": {
+    "express": "4.17.1",
+    "tiny-json-http": "7.3.0"
+  },
+  "license": "MIT",
   "keywords": [
     "netlify",
     "cms",
     "auth"
-  ],
-  "author": "Vaclav Klecanda <vencax77@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "dotenv": "^2.0.0",
-    "express": "^4.15.2",
-    "heroku": "^7.47.0",
-    "randomstring": "^1.1.5",
-    "simple-oauth2": "^1.2.0"
-  }
+  ]
 }
