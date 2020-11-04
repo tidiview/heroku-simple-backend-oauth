@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "express": "4.17.1",
+    "heroku": "^7.47.0",
     "tiny-json-http": "7.3.0"
   },
   "license": "MIT",
